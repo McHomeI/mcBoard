@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #222;
+}
+
+.irish-grover-regular {
+    font-family: "Irish Grover", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.main_title{
+    color: #fff;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.add_button{
+    background-color: rgb(82, 135, 232);
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add_button>a{
+    font-size: 17px;
+    font-weight: 900;
+}
+
+span{
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.flex{
+    display: flex;
+    justify-content: end;
+    margin-right: 100px;
+    margin-top: 60px;
+}
+
+/* 컨테이너 스타일 */
+.container {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* 입력 필드 스타일 */
+input, textarea {
+    width: 300px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea{
+    resize: none;
+}
+
+/* 버튼 스타일 */
+button {
+    width: 100px;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* 출력되는 제목과 내용 스타일 */
+.output {
+    margin-top: 20px;
+    padding: 10px;
+    border-top: 2px solid #ddd;
+}
+
+.container{
+    margin: 300px auto;
+}
+
+.layer{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.309);
+    z-index: 20;
+    display: none;
+}
+
+.output-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.output-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    text-align: center;
+}

@@ -24,6 +24,9 @@ $(document).on('click', '.add', function() {
         newPost.style.padding = '10px';
         newPost.style.margin = '10px 0';
         newPost.style.borderRadius = '5px';
+        newPost.style.width = '800px';
+        newPost.style.height = '110px'
+        newPost.style.margin = '0 auto 20px';
 
         const titleElement = document.createElement('h1');
         titleElement.style.fontSize = '20px';
